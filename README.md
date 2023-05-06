@@ -1,6 +1,6 @@
 # Bridgetown reveal.js Plugin
 
-[Bridgetown](https://www.bridgetownrb.org) is a ruby powered static site
+[Bridgetown](https://www.bridgetownrb.com) is a ruby powered static site
 generation. [Reveal.js](https://revealjs.com) is an open source HTML
 presentation framework.
 
