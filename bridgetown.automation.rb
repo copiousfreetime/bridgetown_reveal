@@ -107,5 +107,3 @@ create_file "src/_slides/closing.html" do
   </section>
   HTML
 end
-
-# Read the Automations documentation: https://www.bridgetownrb.com/docs/automations
