@@ -13,8 +13,8 @@ class TestBridgetownReveal < Bridgetown::TestCase
       "collections" => {
         "slides" => {
           "sort_by" => "order",
-          "name" => "Deck",
-        }
+          "name"    => "Deck",
+        },
       }
     )
     @config.run_initializers! context: :static

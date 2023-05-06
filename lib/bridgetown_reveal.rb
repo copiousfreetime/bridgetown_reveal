@@ -15,6 +15,6 @@ Bridgetown.initializer :bridgetown_reveal do |config|
   config.source_manifest(
     origin: BridgetownReveal,
     components: File.expand_path("../components", __dir__),
-    layouts: File.expand_path("../layouts", __dir__),
+    layouts: File.expand_path("../layouts", __dir__)
   )
 end
