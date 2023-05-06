@@ -1,0 +1,10 @@
+<div class="reveal">
+  <div class="slides">
+    <% slides.each do |slide| %>
+      <% slide.transform! %>
+
+      <%= slide.content %>
+
+    <% end %>
+  </div>
+</div>
