@@ -56,9 +56,9 @@ associated component of [`::BridgetownReveal::Deck`](./components/bridgetown_rev
 
 Integrating a reveal.js presentation into your site involves 3 items:
 
-- Setting a collection for the slides in the top level `bridgetown.config.yml`
-- Create the single page for the presentation to live at
-- Creating all the pages for the slides
+- Setting a collection for the slides in the top level `bridgetown.config.yml`.
+- Create the single presentation page.
+- Creating all the slide content.
 
 For example, if to make a new presentation at output location `/slidey` you
 would do the following:
@@ -72,7 +72,7 @@ collections:
       name: Slidey
 ```
 
-Create the page for the presentation in `src/slidey.erb`
+Create the page for the presentation at `src/slidey.erb`
 
 ```erb
 ---
@@ -82,7 +82,7 @@ layout: bridgetown_reveal/deck
 <%= render ::BridgetownReveal::Deck.new(site: site, collection: 'slidey') %>
 ```
 
-Put all the slidey pages themselves in `src/_slidey/`. The pages will all be
+Put all the slidey content pages themselves in `src/_slidey/`. The pages will all be
 combinded together and sorted based upon the `order` value in the frontmatter.
 
 **`src/_slidey/intro.html`**
@@ -113,7 +113,8 @@ order: 100
 </section>
 ```
 
-All of the content is exactly [reveal.js](https://revealjs.com) content.
+All of the content is [reveal.js](https://revealjs.com) `<section>` content. The
+top level wrapper for reveal.js is inside the `bridgetown_reveal/deck` layout.
 
 ## Testing
 
