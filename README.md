@@ -45,9 +45,9 @@ The steps are:
     init :bridgetown_reveal
     ```
 2. Add `reveal.js` to your yarn package: `yarn add reveal.js`
-2. Install the javascript for bootstrapping reveal.js and import it.
-3. Update the `bridgetown.config.yml` to add the `slides` collection
-4. Install a sample presentation.
+3. Install the [javascript for bootstrapping reveal.js](https://github.com/copiousfreetime/bridgetown_reveal/blob/faec16917b99ae9646c771b7fb23c2c73a75b5db/bridgetown.automation.rb#L9-L49) and [import it](https://github.com/copiousfreetime/bridgetown_reveal/blob/faec16917b99ae9646c771b7fb23c2c73a75b5db/bridgetown.automation.rb#L56)
+4. Update the `bridgetown.config.yml` to [add the `slides`](https://github.com/copiousfreetime/bridgetown_reveal/blob/faec16917b99ae9646c771b7fb23c2c73a75b5db/bridgetown.automation.rb#L63-L67) collection.
+5. Install a [sample presentation](https://github.com/copiousfreetime/bridgetown_reveal/blob/faec16917b99ae9646c771b7fb23c2c73a75b5db/bridgetown.automation.rb#L71-L109)
 
 ## Usage
 
